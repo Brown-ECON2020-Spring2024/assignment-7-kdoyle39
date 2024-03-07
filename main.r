@@ -8,7 +8,7 @@ source("./code/get_gapminder_data.r")
 
 ## Run Analysis
 install.packages("data.table")
-library(table.table)
+library(data.table)
 source("./code/run_linear_reg.r")
 
 ## Make Tables
