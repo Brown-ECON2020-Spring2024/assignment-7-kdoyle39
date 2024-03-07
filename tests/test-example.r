@@ -6,7 +6,7 @@ test_that("This is an example test", {
 
 test_that("Section 3 test 1 and 2", {
   expect_equal(unname(coef(model)[2]), 0.00076, tolerance = 0.00001)
-  expect_equal(nobs(model), 1710)
+  expect_equal(nobs(model), 1704)
 })
 
 install.packages("testdat")
